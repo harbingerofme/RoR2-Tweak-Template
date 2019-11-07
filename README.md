@@ -1,6 +1,6 @@
 # RoR2-Tweak-Template
 
-For an actual example using this framework, see [HarbTweaks](https://github.com/harbingerofme/R2Mods/tree/master/HarbTweaks).
+For an actual example using this framework, see [HarbTweaks](https://github.com/harbingerofme/HarbTweaks).
 
 Framework for tweak collections. While it doesn't make sense to use this framework for a single tweak, when you have a bunch of unrelated tweaks, it might be useful to use this.
 
