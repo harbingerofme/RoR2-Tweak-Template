@@ -15,11 +15,11 @@ using System.Linq;
 /// </summary>
 namespace TweakTemplate
 {
-    [PluginDependency("community.mmbait", PluginDependency.DependencyFlags.SoftDependency)]
-    [PluginDependency("community.mmhook", PluginDependency.DependencyFlags.SoftDependency)]
-    [PluginDependency("com.bepis.r2api", PluginDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("community.mmbait", PluginDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("community.mmhook", PluginDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("com.bepis.r2api", PluginDependency.DependencyFlags.SoftDependency)]
 
-   [PluginMetadata(GUID, modName, version)]
+   [BepInPlugin(GUID, modName, version)]
     public class TweakPlugin : BaseUnityPlugin
     {
         public const string modName = "IfISeeThisInAReleasedModYouAreBadAndYouShouldFeelBad";//eg: "{AUTHOR}Tweaks"
